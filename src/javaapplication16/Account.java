@@ -10,4 +10,7 @@ public class Account {
         this.nombre = nombre;
         this.saldo = saldo;
     }
+    public String toString() {
+        return "Número: " + numeroCuenta + "\nNombre: " + nombre + "\nSaldo: $" + saldo;
+    }
 }
