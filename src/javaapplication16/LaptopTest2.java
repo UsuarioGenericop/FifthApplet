@@ -1,8 +1,6 @@
 package javaapplication16;
 
-import java.util.*;
-
-public class Main {
+public class LaptopTest2 {
     public static void main(String[] args) {
         Laptop l1 = new Laptop();
         Laptop l2 = new Laptop("Dell", "Inspiron", 16, 2500.99);
