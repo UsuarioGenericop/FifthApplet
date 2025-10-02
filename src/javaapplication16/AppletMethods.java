@@ -10,7 +10,7 @@ public class AppletMethods extends javax.swing.JFrame {
         init();             
     }
 
-    // Main method → entry point to run in JDK 25
+    // javaapplication16.Main method → entry point to run in JDK 25
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             new AppletMethods().setVisible(true);
