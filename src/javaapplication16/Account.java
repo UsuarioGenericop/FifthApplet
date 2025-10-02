@@ -3,9 +3,9 @@ package javaapplication16;
 public class Account {
     int numeroCuenta;
     String  nombre;
-    double saldo;
+    String saldo;
 
-    Account(int numeroCuenta, String nombre, double saldo){
+    Account(int numeroCuenta, String nombre, String saldo){
         this.numeroCuenta =  numeroCuenta;
         this.nombre = nombre;
         this.saldo = saldo;

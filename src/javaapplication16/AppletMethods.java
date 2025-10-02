@@ -136,9 +136,11 @@ public class AppletMethods extends javax.swing.JFrame {
         // TODO add your handling code here:
         try{String nombre = jTextField1.getText().trim();
         int numero = Integer.parseInt(jFormattedTextField1.getText().trim());
-        double saldo = Double.parseDouble(jFormattedTextField2.getText().trim());
+        String saldo = (jFormattedTextField2.getText().trim());
         Account account1 = new Account(numero, nombre, saldo);
+            System.out.println(account1.toString());
         jTextArea1.setText(account1.toString());}catch(NumberFormatException ex){jTextArea1.setText("Ingrese datos validos");}
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
 
